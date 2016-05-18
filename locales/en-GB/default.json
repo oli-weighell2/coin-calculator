@@ -1,0 +1,18 @@
+{
+    "fields": {
+        "amount": {
+            "label": "Amount"
+        }
+    },
+    "buttons": {
+        "submit": "Submit"
+    },
+    "validation": {
+        "required": "Please enter '{{label}}'.",
+        "maxlength": "Please enter an amount with less than 6 numbers",
+        "default": "Please enter an amount in the correct format, eg £3.22"
+    },
+    "error": {
+        "default": "An unknown error occured"
+    }
+}

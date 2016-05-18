@@ -1,0 +1,20 @@
+form {
+    .error-message {
+        display: block;
+        color: $validation-color;
+    }
+
+    .form-control.invalid-input {
+        border: 2px solid $validation-color;
+    }
+
+    .validation-error {
+        box-sizing: border-box;
+        padding-left: 12px;
+        border-left: 4px solid $validation-color;
+    }
+
+    input.form-control {
+        height: 48px;
+    }
+}

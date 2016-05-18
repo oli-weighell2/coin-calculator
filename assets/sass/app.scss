@@ -1,0 +1,20 @@
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$link-color: #00B7FF;
+$validation-color: #b10e1e;
+$font-stack: "Lucida Grande", Helvetica, Arial, sans-serif;
+
+@import "modules/form";
+
+body {
+    padding: 50px;
+    font: 14px Helvetica, sans-serif;
+}
+
+a {
+    color: $link-color;
+}
+
+.visuallyhidden {
+    display: none;
+}
