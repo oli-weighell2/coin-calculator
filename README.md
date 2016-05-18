@@ -2,7 +2,7 @@
 Calculates the minimum coins (sterling) for a given amount.
 
 ## Prerequisites
-[Node](http://nodejs.org/) v0.10.29 or above (only tested up to v4.1.0)
+[Node](http://nodejs.org/) v0.10.29 or above (only tested up to v4.1.0).
 
 ## Installation
 ```
@@ -17,22 +17,14 @@ Then open http://localhost:3000/ in a browser.
 
 ## Developer notes
 
-##### Coin calculation:
-See /models/coins.js.
-
-##### Amount validation
-See /routes/fields.js
-
-##### CSS
-See /assets/sass. Once updated, css files will need to be recompiled by running:
+- **Coin calculation**: see /models/coins.js.
+- **Amount validation**: see /routes/fields.js
+- **CSS**: see /assets/sass. Once updated, css files will need to be recompiled by running:
 ```
 $> npm run postinstall
 ```
-##### HTML
-See /views/pages/index.html and /views/partials/form.html.
-
-##### Form configuration:
-The app uses the HMPO form wizard to abstract the form building process. Fields and step behaviour can be configured from routes/fields.js and routes/steps.js. See /node_modules/hmpo-form-wizard/readme for more details.
+- **HTML**: see /views/pages/index.html and /views/partials/form.html.
+- **Form configuration**: the app uses the HMPO form wizard to abstract the form building process. Fields and step behaviour can be configured from routes/fields.js and routes/steps.js. See /node_modules/hmpo-form-wizard/readme for more details.
 
 ## Unit tests
 
